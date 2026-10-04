@@ -1,0 +1,17 @@
+# Raw data and captures (large / third-party)
+*.log
+*.pcap
+*.pcapng
+*.cap
+
+# Source documents (PDF is used instead)
+*.docx
+
+# Secrets
+.env
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
