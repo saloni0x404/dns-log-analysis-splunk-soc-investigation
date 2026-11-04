@@ -1,17 +1,20 @@
-# Raw data and captures (large / third-party)
+# Never commit the raw dataset or captures (training data, large)
+dns.log
 *.log
 *.pcap
 *.pcapng
-*.cap
+*.zip
 
-# Source documents (PDF is used instead)
-*.docx
+# Office / OS / editor noise
+~$*.docx
+~$*.xlsx
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
 
 # Secrets
 .env
-*.key
 *.pem
-
-# OS files
-.DS_Store
-Thumbs.db
+*.key
